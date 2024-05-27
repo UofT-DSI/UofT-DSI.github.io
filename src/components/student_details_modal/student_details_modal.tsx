@@ -6,8 +6,10 @@ interface StudentDetailsModalProps {
         id: string;
         name: string;
         email: string;
-        skills: string[];
+        skills: string;
         image_url: string;
+        description: string;
+        links: { title: string; url: string; }[];
     };
     onClose: () => void;
 }
@@ -28,7 +30,6 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
             onClose(); // Actually remove the modal from the DOM after animations
         }, 300); // Match your longest transition time
     };
-    
 
     return (
         <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`}>
@@ -37,9 +38,17 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
                 <img src={student.image_url} alt={student.name} className={styles.profileImage} />
                 <h2>{student.name}</h2>
                 <p>Email: {student.email}</p>
-                <ul>
-                    {student.skills.map(skill => <li key={skill}>{skill}</li>)}
-                </ul>
+                <p>Certificate: {student.skills}</p>
+                <p>{student.description}</p>
+                <div className={styles.links}>
+                    {student.links.map((link, index) => (
+                        <p key={index}>
+                            <a href={link.url} target="_blank" rel="noopener noreferrer">
+                                {link.title}
+                            </a>
+                        </p>
+                    ))}
+                </div>
                 {/* Add more details or interactive elements as needed */}
             </div>
         </div>

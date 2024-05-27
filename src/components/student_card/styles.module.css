@@ -21,18 +21,6 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhance shadow on hover */
 }
 
-.open {
-    background-color: #ffffff; /* Brighter background to highlight */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Drop shadow for depth */
-    border-color: #0044ff; /* Blue border to indicate selection */
-    z-index: 5; /* Ensure the card is above others */
-    position: relative; /* Important for z-index to take effect */
-    transform: scale(1.05); /* Slightly enlarge the card */
-    max-height: none; /* Allow the card to expand as needed */
-
-
-}
-
 .additional_info {
     position: absolute;
     top: 0;

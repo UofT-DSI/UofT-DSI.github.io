@@ -6,7 +6,7 @@ interface StudentCardProps {
         id: string;
         name: string;
         email: string;
-        skills: string[];
+        skills: string;
         image_url: string;
     };
     onSelect: () => void;
@@ -18,9 +18,7 @@ const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
             <img src={student.image_url} alt={student.name} className={styles.profile_image} />
             <h2>{student.name}</h2>
             <p>Email: {student.email}</p>
-            <ul>
-                {student.skills.map(skill => <li key={skill}>{skill}</li>)}
-            </ul>
+            <p>Certificate: {student.skills}</p>
             <div className={styles.additional_info}>
                 <p>About: More detailed information here...</p>
                 <p>Links: Relevant links here...</p>
