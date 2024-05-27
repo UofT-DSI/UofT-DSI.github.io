@@ -1,0 +1,71 @@
+.student_card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+
+}
+
+.student_card:hover {
+    transform: scale(1.05); /* Slight scale up on hover */
+    z-index: 2; /* Elevate the card on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhance shadow on hover */
+}
+
+.additional_info {
+    position: absolute;
+    top: 0;
+    left: 100%;  /* Positioned to the right of the card initially */
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);  /* Slightly transparent or match the card */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+    padding: 20px;  /* Padding for content inside */
+    box-sizing: border-box;
+}
+
+.student_card ul {
+    padding: 0;
+    list-style-type: none; /* Removes default bullets */
+    text-align: left; /* Align text to left if needed, or keep center for different aesthetic */
+    width: 100%; /* Ensures full width of the card */
+    margin: 0 auto; /* Centers the list if text-align is center */
+    display: flex;
+    flex-direction: column;
+    align-items: left; /* Centers items if the list itself is wider */
+}
+
+.student_card li {
+    text-align: left; /* Centers text within list items */
+    width: 100%; /* Full width of the list area */
+}
+
+.profile_image {
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+    border-radius: 50%; /* Makes the image circular */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+@media (max-width: 300px) {
+    .student_card {
+        padding: 15px;
+        min-width: 200px;
+    }
+
+    .profile_image {
+        width: 80px;
+        height: 80px;
+    }
+}

@@ -1,0 +1,8 @@
+.student_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your desired card width */
+  gap: 20px;
+  padding: 20px 100px;
+  position: relative;  /* Ensures the position context is set for absolute positioning */
+  overflow: visible; /* Allows the expanded card to overflow without scrollbars */
+}
