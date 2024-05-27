@@ -1,4 +1,3 @@
-// src/components/student_card/student_card.tsx
 import React from 'react';
 import styles from './styles.module.css';
 
@@ -7,14 +6,15 @@ interface StudentCardProps {
         id: string;
         name: string;
         email: string;
-        skills: Array<string>;
-        image_url: string; // Assuming this property holds the image URL
+        skills: string[];
+        image_url: string;
     };
+    onSelect: () => void;
 }
 
-const StudentCard: React.FC<StudentCardProps> = ({ student }) => {
+const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
     return (
-        <div className={styles.student_card}>
+        <div className={styles.student_card} onClick={onSelect}>
             <img src={student.image_url} alt={student.name} className={styles.profile_image} />
             <h2>{student.name}</h2>
             <p>Email: {student.email}</p>

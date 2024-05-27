@@ -1,0 +1,60 @@
+/* StudentDetailsModal.module.css */
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+
+    opacity: 0; /* Start fully transparent */
+    visibility: hidden; /* Start hidden */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modalContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 21;
+    width: 50%;
+    height: 50%;
+
+    
+    transform: scale(0.95); /* Start slightly scaled down */
+    transition: transform 0.3s ease; /* Smooth scale transition */
+    
+}
+
+/* Active class to control visibility and transformations */
+.modalActive {
+    opacity: 1; /* Fully opaque */
+    visibility: visible; /* Make visible */
+}
+
+.modalContentActive {
+    transform: scale(1); /* Scale to normal size */
+}
+
+.closeButton {
+    float: right;
+    border: none;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.profileImage {
+    width: 100px;  /* Set a fixed width */
+    height: 100px;  /* Set a fixed height */
+    border-radius: 50%;  /* Makes the image circular */
+    object-fit: cover;  /* Ensure the image covers the area without distortion */
+    margin: 10px 0;  /* Vertical margin for spacing */
+    border: 2px solid #ccc;  /* Optional: adds a subtle border around the image */
+}

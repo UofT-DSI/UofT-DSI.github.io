@@ -1,0 +1,49 @@
+import React, { useState, useEffect } from 'react';
+import styles from './styles.module.css';
+
+interface StudentDetailsModalProps {
+    student: {
+        id: string;
+        name: string;
+        email: string;
+        skills: string[];
+        image_url: string;
+    };
+    onClose: () => void;
+}
+
+const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onClose }) => {
+    
+    const [isActive, setIsActive] = useState(false);
+
+    // Simulate the modal opening with a delay for transitions
+    useEffect(() => {
+        const timer = setTimeout(() => setIsActive(true), 10);
+        return () => clearTimeout(timer);
+    }, []);
+
+    const handleClose = () => {
+        setIsActive(false); // Trigger the close animations
+        setTimeout(() => {
+            onClose(); // Actually remove the modal from the DOM after animations
+        }, 300); // Match your longest transition time
+    };
+    
+
+    return (
+        <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`}>
+            <div className={`${styles.modalContent} ${isActive ? styles.modalContentActive : ''}`}>
+                <button onClick={handleClose} className={styles.closeButton}>×</button>
+                <img src={student.image_url} alt={student.name} className={styles.profileImage} />
+                <h2>{student.name}</h2>
+                <p>Email: {student.email}</p>
+                <ul>
+                    {student.skills.map(skill => <li key={skill}>{skill}</li>)}
+                </ul>
+                {/* Add more details or interactive elements as needed */}
+            </div>
+        </div>
+    );
+};
+
+export default StudentDetailsModal;
