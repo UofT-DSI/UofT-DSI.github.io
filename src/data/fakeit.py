@@ -13,6 +13,28 @@ random.shuffle(name_combinations)
 
 def generate_students(num_students):
     students = []
+
+    daniel_razavi = {
+        "id": str(1),
+        "name": "Daniel Razavi",
+        "email": "daniel.razavi@utoronto.ca",
+        "skills": "Data Science and Machine Learning Software Foundations",
+        "image_url": "/dans_photo.jpg",
+        "description": "Daniel Razavi is currently working as a Senior Software Developer at UofT-DSI, where he leads a team of developers in creating innovative solutions for data science initiatives. In this role, he has been instrumental in designing and implementing scalable software systems that enhance data processing and analysis capabilities. Previously, Daniel worked as a Software Development Engineer at Amazon, where he contributed to the development of highly scalable e-commerce systems and services. During his time at Amazon, he was recognized for his ability to optimize performance and streamline operations, resulting in significant improvements in system efficiency. Daniel holds a degree in Computer Science and is passionate about leveraging technology to solve complex problems. In his free time, he enjoys mentoring junior developers and contributing to open-source projects.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/danielrazavi"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.danielrazavi.com"
+            }
+        ]
+    }
+    students.append(daniel_razavi)
+
     for i in range(1, num_students + 1):
         first_name, last_name = name_combinations[i % len(name_combinations)]
         email = f"{first_name}{last_name}@example.com".lower()

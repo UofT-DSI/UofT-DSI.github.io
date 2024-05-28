@@ -50,11 +50,11 @@
 }
 
 .profileImage {
-    width: 100px;  /* Set a fixed width */
-    height: 100px;  /* Set a fixed height */
+    width: 200px;  /* Set a larger width */
+    height: 200px;  /* Set a larger height */
     border-radius: 50%;  /* Makes the image circular */
     object-fit: cover;  /* Ensure the image covers the area without distortion */
-    margin: 10px 0;  /* Vertical margin for spacing */
+    margin: 10px 30px 10px 0;  /* Vertical margin for spacing */
     border: 2px solid #ccc;  /* Optional: adds a subtle border around the image */
 }
 
@@ -75,4 +75,9 @@
 
 .links a:hover {
     background-color: #0056b3;
+}
+
+.profileContainer {  /* New */
+    display: flex;  /* New */
+    align-items: center;  /* New */
 }
