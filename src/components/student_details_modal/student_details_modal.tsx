@@ -36,13 +36,17 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
         e.stopPropagation();
     };
 
+    // Set a default photo if none is provided
+    const defaultPhotoUrl = "https://thenerdy.com/wp-content/uploads/2018/11/70821-LEGO-LEGO-Movie-2-Emmet-and-Bennys-Build-and-Fix-Workshop-01.jpg"; // Replace with your actual default photo path
+    const photoUrl = student.photo || defaultPhotoUrl;
+
     return (
         <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`} onClick={handleClose}>
             <div className={`${styles.modalContent} ${isActive ? styles.modalContentActive : ''}`} onClick={handleContentClick}>
                 <button onClick={handleClose} className={styles.closeButton}>×</button>
                 <div className={styles.profileContainer}>
                     <div className={styles.leftColumn}>
-                        <img src={student.photo} alt={student.name} className={styles.profileImage} />
+                        <img src={photoUrl} alt={student.name} className={styles.profileImage} />
                         <p><strong>Certificate:</strong> {student.certification}</p>
                     </div>
                     <div className={styles.rightColumn}>
