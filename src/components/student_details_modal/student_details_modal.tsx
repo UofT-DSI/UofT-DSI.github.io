@@ -48,12 +48,16 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
                     <div className={styles.rightColumn}>
                         <h1>{student.name}</h1>
                         <p>{student.summary}</p>
-                        <a href={student.linkedin} target="_blank" rel="noopener noreferrer">
-                            LinkedIn
-                        </a>
-                        <a href={student.github} target="_blank" rel="noopener noreferrer">
-                            Github
-                        </a>
+                        {student.linkedin && (
+                            <a href={student.linkedin} target="_blank" rel="noopener noreferrer">
+                                LinkedIn
+                            </a>
+                        )}
+                        {student.github && (
+                            <a href={student.github} target="_blank" rel="noopener noreferrer">
+                                Github
+                            </a>
+                        )}
                     </div>
                 </div>
                 {/* Add more details or interactive elements as needed */}
