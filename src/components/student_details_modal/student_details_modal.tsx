@@ -40,17 +40,28 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
     const defaultPhotoUrl = "https://thenerdy.com/wp-content/uploads/2018/11/70821-LEGO-LEGO-Movie-2-Emmet-and-Bennys-Build-and-Fix-Workshop-01.jpg"; // Replace with your actual default photo path
     const photoUrl = student.photo || defaultPhotoUrl;
 
+    // Function to convert string to Title Case
+    const toTitleCase = (str: string) => {
+        return str.replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+        );
+    };
+
+    // Ensure the student's name is always in Title Case
+    const titleCaseName = toTitleCase(student.name);
+
     return (
         <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`} onClick={handleClose}>
             <div className={`${styles.modalContent} ${isActive ? styles.modalContentActive : ''}`} onClick={handleContentClick}>
                 <button onClick={handleClose} className={styles.closeButton}>×</button>
                 <div className={styles.profileContainer}>
                     <div className={styles.leftColumn}>
-                        <img src={photoUrl} alt={student.name} className={styles.profileImage} />
+                        <img src={photoUrl} alt={titleCaseName} className={styles.profileImage} />
                         <p><strong>Certificate:</strong> {student.certification}</p>
                     </div>
                     <div className={styles.rightColumn}>
-                        <h1>{student.name}</h1>
+                        <h1>{titleCaseName}</h1>
                         <p>{student.summary}</p>
                         {student.linkedin && (
                             <a href={student.linkedin} target="_blank" rel="noopener noreferrer">

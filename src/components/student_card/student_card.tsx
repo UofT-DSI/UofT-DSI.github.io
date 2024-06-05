@@ -19,10 +19,21 @@ const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
     const defaultPhotoUrl = "https://thenerdy.com/wp-content/uploads/2018/11/70821-LEGO-LEGO-Movie-2-Emmet-and-Bennys-Build-and-Fix-Workshop-01.jpg"; // Replace with your actual default photo path
     const photoUrl = student.photo || defaultPhotoUrl;
 
+    // Function to convert string to Title Case
+    const toTitleCase = (str: string) => {
+        return str.replace(
+            /\w\S*/g,
+            (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+        );
+    };
+
+    // Ensure the student's name is always in Title Case
+    const titleCaseName = toTitleCase(student.name);
+
     return (
         <div className={styles.student_card} onClick={onSelect}>
-            <img src={photoUrl} alt={student.name} className={styles.profile_image} />
-            <h2>{student.name}</h2>
+            <img src={photoUrl} alt={titleCaseName} className={styles.profile_image} />
+            <h2>{titleCaseName}</h2>
             <p>Certificate: {student.certification}</p>
         </div>
     );
