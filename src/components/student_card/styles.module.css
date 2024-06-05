@@ -1,5 +1,5 @@
 .student_card {
-    border: 1px solid #ccc;
+    border: 0px solid #ccc;
     padding: 20px;
     border-radius: 8px;
     background-color: #f9f9f9;
@@ -56,6 +56,8 @@
     height: 100px; /* Set a fixed height for the image */
     border-radius: 50%; /* Makes the image circular */
     margin-bottom: 10px; /* Space between image and text */
+    object-fit: cover; /* Ensures the image covers the area without being squeezed */
+    object-position: center; /* Centers the image within the container */
 }
 
 @media (max-width: 300px) {

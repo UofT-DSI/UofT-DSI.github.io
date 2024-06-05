@@ -5,25 +5,22 @@ interface StudentCardProps {
     student: {
         id: string;
         name: string;
-        email: string;
-        skills: string;
-        image_url: string;
+        certification: string;
+        photo: string;
+        summary: string;
+        linkedin: string;
+        github: string;
     };
     onSelect: () => void;
 }
 
+
 const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
     return (
         <div className={styles.student_card} onClick={onSelect}>
-            <img src={student.image_url} alt={student.name} className={styles.profile_image} />
+            <img src={student.photo} alt={student.name} className={styles.profile_image} />
             <h2>{student.name}</h2>
-            <p>Email: {student.email}</p>
-            <p>Certificate: {student.skills}</p>
-            <div className={styles.additional_info}>
-                <p>About: More detailed information here...</p>
-                <p>Links: Relevant links here...</p>
-                <p>Github Contribution: Details here...</p>
-            </div>
+            <p>Certificate: {student.certification}</p>
         </div>
     );
 };

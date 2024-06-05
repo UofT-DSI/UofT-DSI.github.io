@@ -5,11 +5,11 @@ interface StudentDetailsModalProps {
     student: {
         id: string;
         name: string;
-        email: string;
-        skills: string;
-        image_url: string;
-        description: string;
-        links: { title: string; url: string; }[];
+        certification: string;
+        photo: string;
+        summary: string;
+        linkedin: string;
+        github: string;
     };
     onClose: () => void;
 }
@@ -35,24 +35,21 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
         <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`}>
             <div className={`${styles.modalContent} ${isActive ? styles.modalContentActive : ''}`}>
                 <button onClick={handleClose} className={styles.closeButton}>×</button>
-                <h2>{student.name}</h2>
                 <div className={styles.profileContainer}>
                     <div className={styles.leftColumn}>
-                        <img src={student.image_url} alt={student.name} className={styles.profileImage} />
-                        <p>Email: <a href={`mailto:${student.email}`}>{student.email}</a></p>
-                        <p>Certificate: {student.skills}</p>
+                        <img src={student.photo} alt={student.name} className={styles.profileImage} />
+                        <p>Certificate: {student.certification}</p>
                     </div>
                     <div className={styles.rightColumn}>
-                        <p>{student.description}</p>
-                        <div className={styles.links}>
-                            {student.links.map((link, index) => (
-                                <p key={index}>
-                                    <a href={link.url} target="_blank" rel="noopener noreferrer">
-                                        {link.title}
-                                    </a>
-                                </p>
-                            ))}
-                        </div>
+                        <h1>{student.name}</h1>
+                        <p>{student.summary}</p>
+                        <a href={student.linkedin} target="_blank" rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                        
+                        <a href={student.github} target="_blank" rel="noopener noreferrer">
+                            Github
+                        </a>
                     </div>
                 </div>
                 {/* Add more details or interactive elements as needed */}

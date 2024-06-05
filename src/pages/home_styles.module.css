@@ -5,4 +5,5 @@
   padding: 20px 100px;
   position: relative;  /* Ensures the position context is set for absolute positioning */
   overflow: visible; /* Allows the expanded card to overflow without scrollbars */
+  background-color: #eef0f3;
 }

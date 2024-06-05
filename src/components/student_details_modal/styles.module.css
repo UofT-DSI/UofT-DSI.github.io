@@ -19,12 +19,14 @@
 
 .modalContent {
     background-color: #fff;
-    padding: 20px;
+    padding: 2% 5%;
+    color: #050505;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 21;
     width: 700px;
     height: auto;
+    background-color: #ffffff;
 
     transform: scale(0.95); /* Start slightly scaled down */
     transition: transform 0.3s ease; /* Smooth scale transition */
@@ -50,18 +52,20 @@
 }
 
 .profileImage {
-    width: 200px;  /* Set a larger width */
-    height: 200px;  /* Set a larger height */
-    border-radius: 50%;  /* Makes the image circular */
+    width: 100%;  /* Set a larger width */
+    height: auto;  /* Set a larger height */
+    aspect-ratio: 1;
+    max-width: 100%;
+    border-radius: 10%;  /* Makes the image circular */
     object-fit: cover;  /* Ensure the image covers the area without distortion */
     margin: 10px 30px 10px 0;  /* Vertical margin for spacing */
-    border: 2px solid #ccc;  /* Optional: adds a subtle border around the image */
+    border: 10px solid #ffffff;  /* Optional: adds a subtle border around the image */
 }
 
-.links a {
+a {
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px 0;
+    margin: 10px 10px;
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -73,11 +77,27 @@
     transition: background-color 0.3s ease;
 }
 
-.links a:hover {
+a:hover {
     background-color: #0056b3;
 }
 
-.profileContainer {  /* New */
-    display: flex;  /* New */
-    align-items: center;  /* New */
+.profileContainer {  
+    display: flex;  
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;  
+}
+
+.leftColumn, .rightColumn {
+    flex: 1; /* Both columns take up equal space */
+    margin: 20px; /* Optional: adds some space around each column */
+}
+
+.leftColumn {
+    max-width: 33%; /* Constrain the max width to prevent overflow */
+}
+
+.rightColumn {
+    max-width: 66%; /* Constrain the max width to align with left column */
 }

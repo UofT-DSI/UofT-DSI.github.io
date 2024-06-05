@@ -1,0 +1,1902 @@
+[
+    {
+        "id": "1",
+        "name": "Emily Johnson",
+        "email": "emilyjohnson@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilyjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilyjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Emily Hernandez",
+        "email": "emilyhernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilyhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilyhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Laura Smith",
+        "email": "laurasmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurasmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurasmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "John Garcia",
+        "email": "johngarcia@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johngarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johngarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Laura Martinez",
+        "email": "lauramartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lauramartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Lauramartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Sarah Miller",
+        "email": "sarahmiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahmiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahmillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "Katie Brown",
+        "email": "katiebrown@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiebrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiebrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Sarah Jones",
+        "email": "sarahjones@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Sarah Williams",
+        "email": "sarahwilliams@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahwilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahwilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Emily Garcia",
+        "email": "emilygarcia@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilygarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilygarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "David Hernandez",
+        "email": "davidhernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "David Brown",
+        "email": "davidbrown@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Alex Miller",
+        "email": "alexmiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexmiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexmillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "John Johnson",
+        "email": "johnjohnson@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "John Martinez",
+        "email": "johnmartinez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnmartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnmartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "David Davis",
+        "email": "daviddavis@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/daviddavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Daviddavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "John Miller",
+        "email": "johnmiller@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnmiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnmillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "Chris Smith",
+        "email": "chrissmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrissmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrissmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Emily Brown",
+        "email": "emilybrown@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilybrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilybrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Michael Martinez",
+        "email": "michaelmartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelmartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelmartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Chris Williams",
+        "email": "chriswilliams@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chriswilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chriswilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "David Jones",
+        "email": "davidjones@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Laura Davis",
+        "email": "lauradavis@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lauradavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Lauradavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Sarah Johnson",
+        "email": "sarahjohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Jane Martinez",
+        "email": "janemartinez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janemartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janemartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Laura Johnson",
+        "email": "laurajohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurajohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurajohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Alex Garcia",
+        "email": "alexgarcia@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexgarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexgarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "name": "John Smith",
+        "email": "johnsmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnsmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnsmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "name": "David Garcia",
+        "email": "davidgarcia@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidgarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidgarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Laura Jones",
+        "email": "laurajones@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurajones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurajonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "name": "John Brown",
+        "email": "johnbrown@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Alex Martinez",
+        "email": "alexmartinez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexmartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexmartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Alex Brown",
+        "email": "alexbrown@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Chris Martinez",
+        "email": "chrismartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrismartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrismartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Sarah Smith",
+        "email": "sarahsmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahsmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahsmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "name": "David Johnson",
+        "email": "davidjohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Katie Garcia",
+        "email": "katiegarcia@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiegarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiegarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "name": "Sarah Davis",
+        "email": "sarahdavis@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahdavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahdavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Sarah Hernandez",
+        "email": "sarahhernandez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Alex Johnson",
+        "email": "alexjohnson@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Michael Brown",
+        "email": "michaelbrown@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Michael Jones",
+        "email": "michaeljones@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaeljones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaeljonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Jane Jones",
+        "email": "janejones@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janejones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janejonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Laura Williams",
+        "email": "laurawilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurawilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurawilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Sarah Garcia",
+        "email": "sarahgarcia@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahgarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahgarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "name": "Laura Hernandez",
+        "email": "laurahernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurahernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurahernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "Michael Garcia",
+        "email": "michaelgarcia@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelgarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelgarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Katie Smith",
+        "email": "katiesmith@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiesmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiesmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Chris Garcia",
+        "email": "chrisgarcia@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrisgarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrisgarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Jane Smith",
+        "email": "janesmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janesmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janesmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "51",
+        "name": "David Williams",
+        "email": "davidwilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidwilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidwilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Alex Jones",
+        "email": "alexjones@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Katie Jones",
+        "email": "katiejones@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiejones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiejonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "name": "Emily Miller",
+        "email": "emilymiller@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilymiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilymillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "55",
+        "name": "Katie Williams",
+        "email": "katiewilliams@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiewilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiewilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "name": "Michael Davis",
+        "email": "michaeldavis@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaeldavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaeldavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "57",
+        "name": "John Williams",
+        "email": "johnwilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnwilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnwilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "58",
+        "name": "Emily Jones",
+        "email": "emilyjones@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilyjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilyjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Jane Miller",
+        "email": "janemiller@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janemiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janemillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "60",
+        "name": "Chris Jones",
+        "email": "chrisjones@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrisjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrisjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "61",
+        "name": "Alex Williams",
+        "email": "alexwilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexwilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexwilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "62",
+        "name": "Laura Brown",
+        "email": "laurabrown@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laurabrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Laurabrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "63",
+        "name": "Michael Smith",
+        "email": "michaelsmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelsmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelsmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "64",
+        "name": "Jane Williams",
+        "email": "janewilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janewilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janewilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "65",
+        "name": "Michael Johnson",
+        "email": "michaeljohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaeljohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaeljohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "66",
+        "name": "Jane Johnson",
+        "email": "janejohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janejohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janejohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "67",
+        "name": "Jane Brown",
+        "email": "janebrown@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janebrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janebrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "68",
+        "name": "David Miller",
+        "email": "davidmiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidmiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidmillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "69",
+        "name": "Michael Williams",
+        "email": "michaelwilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelwilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelwilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "70",
+        "name": "Emily Martinez",
+        "email": "emilymartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilymartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilymartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "71",
+        "name": "Katie Davis",
+        "email": "katiedavis@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiedavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiedavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "72",
+        "name": "Jane Garcia",
+        "email": "janegarcia@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janegarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janegarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "73",
+        "name": "Katie Hernandez",
+        "email": "katiehernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiehernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiehernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "74",
+        "name": "Michael Hernandez",
+        "email": "michaelhernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "75",
+        "name": "Emily Williams",
+        "email": "emilywilliams@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilywilliams"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilywilliamsportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "76",
+        "name": "David Martinez",
+        "email": "davidmartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidmartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidmartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "77",
+        "name": "Katie Johnson",
+        "email": "katiejohnson@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiejohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiejohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "78",
+        "name": "Chris Johnson",
+        "email": "chrisjohnson@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrisjohnson"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrisjohnsonportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "79",
+        "name": "Chris Davis",
+        "email": "chrisdavis@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrisdavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrisdavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "80",
+        "name": "Katie Martinez",
+        "email": "katiemartinez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiemartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiemartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "81",
+        "name": "David Smith",
+        "email": "davidsmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/davidsmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Davidsmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "82",
+        "name": "Alex Smith",
+        "email": "alexsmith@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexsmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexsmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "83",
+        "name": "Chris Brown",
+        "email": "chrisbrown@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrisbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrisbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "84",
+        "name": "Chris Miller",
+        "email": "chrismiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrismiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrismillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "85",
+        "name": "Katie Miller",
+        "email": "katiemiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/katiemiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Katiemillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "86",
+        "name": "Emily Davis",
+        "email": "emilydavis@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilydavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilydavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "87",
+        "name": "John Davis",
+        "email": "johndavis@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johndavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johndavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "88",
+        "name": "Sarah Brown",
+        "email": "sarahbrown@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahbrown"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahbrownportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "89",
+        "name": "Emily Smith",
+        "email": "emilysmith@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/emilysmith"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Emilysmithportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "90",
+        "name": "Laura Miller",
+        "email": "lauramiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lauramiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Lauramillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "91",
+        "name": "John Hernandez",
+        "email": "johnhernandez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "92",
+        "name": "Michael Miller",
+        "email": "michaelmiller@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/michaelmiller"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Michaelmillerportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "93",
+        "name": "Chris Hernandez",
+        "email": "chrishernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/chrishernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Chrishernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "94",
+        "name": "John Jones",
+        "email": "johnjones@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/johnjones"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Johnjonesportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "95",
+        "name": "Laura Garcia",
+        "email": "lauragarcia@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/lauragarcia"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Lauragarciaportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "96",
+        "name": "Jane Hernandez",
+        "email": "janehernandez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janehernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janehernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "97",
+        "name": "Sarah Martinez",
+        "email": "sarahmartinez@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/sarahmartinez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Sarahmartinezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "98",
+        "name": "Alex Hernandez",
+        "email": "alexhernandez@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexhernandez"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexhernandezportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "99",
+        "name": "Jane Davis",
+        "email": "janedavis@example.com",
+        "skills": "Data Science",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/janedavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Janedavisportfolio.com"
+            }
+        ]
+    },
+    {
+        "id": "100",
+        "name": "Alex Davis",
+        "email": "alexdavis@example.com",
+        "skills": "Machine Learning Software Foundations",
+        "image_url": "http://previewcf.turbosquid.com/Preview/2016/02/15__00_57_29/LegoMan3dmodel02.jpg2c46f164-e496-4ca8-8081-be0a435578e6Original.jpg",
+        "description": "A data scientist excels in analyzing and interpreting complex digital data, such as the usage statistics of a website, especially in order to assist a business in its decision-making. With expertise in both statistical analysis and machine learning, they manage the entire data pipeline from data collection and cleaning, to applying analytical techniques and presenting insights. They leverage powerful tools and algorithms to uncover hidden patterns, predict trends, and boost business solutions. Passionate about turning raw data into actionable strategies, they play a pivotal role in driving business success in the digital era.",
+        "contribution": "https://joshuatz.com/media/github_contributions_graph_example.png",
+        "links": [
+            {
+                "title": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alexdavis"
+            },
+            {
+                "title": "Portfolio",
+                "url": "https://www.Alexdavisportfolio.com"
+            }
+        ]
+    }
+]

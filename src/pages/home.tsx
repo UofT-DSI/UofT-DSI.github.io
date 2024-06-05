@@ -8,11 +8,11 @@ import styles from './home_styles.module.css';
 interface Student {
     id: string;
     name: string;
-    email: string;
-    skills: string;
-    image_url: string;
-    description: string;
-    links: { title: string; url: string; }[];
+    certification: string;
+    photo: string;
+    summary: string;
+    linkedin: string;
+    github: string;
 }
 
 
