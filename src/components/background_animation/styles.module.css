@@ -18,8 +18,8 @@
 
 .circle {
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     background-color: #479e8a;
     border-radius: 50%;
     box-shadow: 0 0 5px 5px #479e8a;
@@ -30,12 +30,13 @@
     width: 2px; /* Skinnier width */
     height: 2px; /* Skinnier height */
     background-color: #479e8a;
+    box-shadow: 0 0 1px 1px #479e8a;
     border-radius: 50%;
     opacity: 1;
 }
 
 .fade {
-    animation: fadeOut 2s forwards;
+    animation: fadeOut 4s forwards; /* Increase fade-out duration */
 }
 
 @keyframes fadeOut {

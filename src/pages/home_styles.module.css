@@ -17,7 +17,23 @@
   flex-direction: column;
 }
 
-.intro_page > h1, .intro_page > h2 {
+.squircle > h1, .squircle > h2 {
   margin: 0;
   color: white;
+}
+
+.squircle > h1 > strong {
+  margin: 0;
+  color: rgb(157,38,102);
+}
+
+.squircle {
+  position: relative;
+  display: inline-block;
+  padding: 100px 40px;
+  border-radius: 20px; /* Adjust this value to get the desired rounded corners */
+  background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari support */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
 }

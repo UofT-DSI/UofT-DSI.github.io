@@ -33,8 +33,10 @@ const Home: React.FC = () => {
         <div className={styles.container}>
             <div className={styles.intro_page}>
                 <BackgroundAnimation />
-                <h1>Welcome to the Future Proof Year Book</h1>
-                <h2>Data Sciences Institute</h2>
+                <div className={styles.squircle}>
+                    <h1>Welcome to the <strong>Future Proof</strong> Year Book</h1>
+                    <h2>Data Sciences Institute</h2>
+                </div>
             </div>
             <div className={styles.student_grid}>
                 {students.map((student: Student) => (
