@@ -3,6 +3,7 @@ import gsap from 'gsap';
 import { createNoise2D } from 'simplex-noise';
 import styles from './styles.module.css';
 
+// This component was too resource intensive, so a recording of it was made and that video was placed in the place of this component. 
 const BackgroundAnimation: React.FC = () => {
   const animationRef = useRef<HTMLDivElement>(null);
   const noise2D = createNoise2D();

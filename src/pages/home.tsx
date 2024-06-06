@@ -1,10 +1,8 @@
-// src/pages/Home.tsx
 import React, { useState } from 'react';
 import StudentCard from '../components/student_card/student_card';
 import StudentDetailsModal from '../components/student_details_modal/student_details_modal';
 import students from '../data/students.json';
 import styles from './home_styles.module.css';
-import BackgroundAnimation from '../components/background_animation/background_animation';
 
 interface Student {
     id: string;
@@ -16,9 +14,7 @@ interface Student {
     github: string;
 }
 
-
 const Home: React.FC = () => {
-
     const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
 
     const handleSelectStudent = (student: Student) => {
@@ -32,7 +28,10 @@ const Home: React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.intro_page}>
-                <BackgroundAnimation />
+                <video className={styles.video_background} autoPlay loop muted preload="auto">
+                    <source src="/background.mp4" type="video/mp4" />
+                </video>
+
                 <div className={styles.squircle}>
                     <h1>Welcome to the <strong>Future Proof</strong> Year Book</h1>
                     <h2>Data Sciences Institute</h2>
@@ -45,13 +44,13 @@ const Home: React.FC = () => {
                         student={student}
                         onSelect={() => handleSelectStudent(student)}
                     />
-            ))}
-            {selectedStudent && (
-                <StudentDetailsModal
-                student={selectedStudent}
-                onClose={handleCloseModal}
-            />
-            )}
+                ))}
+                {selectedStudent && (
+                    <StudentDetailsModal
+                        student={selectedStudent}
+                        onClose={handleCloseModal}
+                    />
+                )}
             </div>
         </div>
     );
