@@ -17,15 +17,17 @@
   flex-direction: column;
 }
 
-.squircle > h1, .squircle > h2 {
+.squircle > h1 {
   margin: 0;
   color: white;
 }
 
-.squircle > h1 > strong {
+.squircle > h2 {
   margin: 0;
   color: rgb(157,38,102);
 }
+
+
 
 .squircle {
   position: relative;

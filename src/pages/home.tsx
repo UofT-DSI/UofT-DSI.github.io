@@ -33,7 +33,7 @@ const Home: React.FC = () => {
                 </video>
 
                 <div className={styles.squircle}>
-                    <h1>Welcome to the <strong>Future Proof</strong> Year Book</h1>
+                    <h1>Say hello to our Future Proofed</h1>
                     <h2>Data Sciences Institute</h2>
                 </div>
             </div>
