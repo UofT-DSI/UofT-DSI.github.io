@@ -55,7 +55,7 @@
     width: 100px; /* Set a fixed width for the image */
     height: 100px; /* Set a fixed height for the image */
     border-radius: 50%; /* Makes the image circular */
-    border: 3px solid #007FA3;
+    border: 3px solid #479e8a;
     margin-bottom: 10px; /* Space between image and text */
     object-fit: cover; /* Ensures the image covers the area without being squeezed */
     object-position: center; /* Centers the image within the container */

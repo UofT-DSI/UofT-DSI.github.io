@@ -62,3 +62,11 @@
   width: 300px; /* Adjust size as needed */
   margin-bottom: 20px; /* Space between logo and content below */
 }
+
+@media (max-width: 768px) {
+  .squircle {
+    margin: 10%;
+    padding:70px 20px;
+  }
+
+}
