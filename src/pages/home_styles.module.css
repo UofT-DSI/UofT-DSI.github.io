@@ -1,3 +1,9 @@
+/* home_styles.module.css */
+.container {
+  overflow: auto; /* Scrollbars appear only when needed */
+  height: 100vh; /* Full viewport height */
+}
+
 .student_grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your desired card width */
@@ -9,12 +15,13 @@
 }
 
 .intro_page {
-  text-align: center;
-  height: 100vh;
+  position: relative;
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  overflow: auto; /* Scrollbars appear only when needed */
 }
 
 .squircle > h1 {
@@ -22,22 +29,21 @@
   color: white;
 }
 
-.squircle > h2 {
+.squircle > h4 {
   margin: 0;
-  color: rgb(157,38,102);
+  color: white;
 }
-
-
 
 .squircle {
   position: relative;
   display: inline-block;
-  padding: 100px 40px;
+  padding: 80px 40px 100px;
   border-radius: 20px; /* Adjust this value to get the desired rounded corners */
   background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
   backdrop-filter: blur(10px); /* Frosted glass effect */
   -webkit-backdrop-filter: blur(10px); /* For Safari support */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  z-index: 1; /* Ensure it stays above the video */
 }
 
 .video_background {
@@ -50,3 +56,9 @@
   z-index: -1; /* Ensures the video stays behind other content */
 }
 
+.logo {
+  position: relative;
+  z-index: 2; /* Ensure it stays above the video */
+  width: 300px; /* Adjust size as needed */
+  margin-bottom: 20px; /* Space between logo and content below */
+}
