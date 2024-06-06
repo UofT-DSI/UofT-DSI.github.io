@@ -4,6 +4,7 @@ import StudentCard from '../components/student_card/student_card';
 import StudentDetailsModal from '../components/student_details_modal/student_details_modal';
 import students from '../data/students.json';
 import styles from './home_styles.module.css';
+import BackgroundAnimation from '../components/background_animation/background_animation';
 
 interface Student {
     id: string;
@@ -29,20 +30,27 @@ const Home: React.FC = () => {
     };
 
     return (
-        <div className={styles.student_grid}>
-            {students.map((student: Student) => (
-                <StudentCard
-                    key={student.id}
-                    student={student}
-                    onSelect={() => handleSelectStudent(student)}
-                />
-        ))}
-        {selectedStudent && (
-            <StudentDetailsModal
-            student={selectedStudent}
-            onClose={handleCloseModal}
-        />
-        )}
+        <div className={styles.container}>
+            <div className={styles.intro_page}>
+                <BackgroundAnimation />
+                <h1>Welcome to the Future Proof Year Book</h1>
+                <h2>Data Sciences Institute</h2>
+            </div>
+            <div className={styles.student_grid}>
+                {students.map((student: Student) => (
+                    <StudentCard
+                        key={student.id}
+                        student={student}
+                        onSelect={() => handleSelectStudent(student)}
+                    />
+            ))}
+            {selectedStudent && (
+                <StudentDetailsModal
+                student={selectedStudent}
+                onClose={handleCloseModal}
+            />
+            )}
+            </div>
         </div>
     );
 };

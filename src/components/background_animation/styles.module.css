@@ -1,0 +1,45 @@
+/* styles.module.css */
+.background_animation {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #243662;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.trails_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #479e8a;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 5px #479e8a;
+}
+
+.trail {
+    position: absolute;
+    width: 2px; /* Skinnier width */
+    height: 2px; /* Skinnier height */
+    background-color: #479e8a;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.fade {
+    animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+    }
+}

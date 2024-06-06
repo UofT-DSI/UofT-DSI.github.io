@@ -7,3 +7,17 @@
   overflow: visible; /* Allows the expanded card to overflow without scrollbars */
   background-color: #eef0f3;
 }
+
+.intro_page {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro_page > h1, .intro_page > h2 {
+  margin: 0;
+  color: white;
+}
