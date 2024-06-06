@@ -1,5 +1,10 @@
 // src/pages/Home.tsx
 import React, { useState } from 'react';
+import useWindowSize from '../hooks/useWindowSize';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import StudentCard from '../components/student_card/student_card';
 import StudentDetailsModal from '../components/student_details_modal/student_details_modal';
 import students from '../data/students.json';
@@ -15,34 +20,52 @@ interface Student {
     github: string;
 }
 
-
 const Home: React.FC = () => {
-
     const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
+    const { width } = useWindowSize();
+    const isMobile = width < 768;
 
-    const handleSelectStudent = (student: Student) => {
-        setSelectedStudent(student);  // Set the selected student to show in the modal
-    };
-
-    const handleCloseModal = () => {
-        setSelectedStudent(null);  // Clear the selected student when modal is closed
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        centerMode: true,
+        focusOnSelect: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '20px',
     };
 
     return (
-        <div className={styles.student_grid}>
-            {students.map((student: Student) => (
-                <StudentCard
-                    key={student.id}
-                    student={student}
-                    onSelect={() => handleSelectStudent(student)}
+        <div>
+            {isMobile ? (
+                <Slider {...settings}>
+                    {students.map((student: Student) => (
+                        <div key={student.id}>
+                            <StudentCard
+                                student={student}
+                                onSelect={() => setSelectedStudent(student)}
+                            />
+                        </div>
+                    ))}
+                </Slider>
+            ) : (
+                <div className={styles.student_grid}>
+                    {students.map((student: Student) => (
+                        <StudentCard
+                            key={student.id}
+                            student={student}
+                            onSelect={() => setSelectedStudent(student)}
+                        />
+                    ))}
+                </div>
+            )}
+            {selectedStudent && (
+                <StudentDetailsModal
+                    student={selectedStudent}
+                    onClose={() => setSelectedStudent(null)}
                 />
-        ))}
-        {selectedStudent && (
-            <StudentDetailsModal
-            student={selectedStudent}
-            onClose={handleCloseModal}
-        />
-        )}
+            )}
         </div>
     );
 };
