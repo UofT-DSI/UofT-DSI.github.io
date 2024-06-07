@@ -26,7 +26,7 @@ const Home: React.FC = () => {
     const isMobile = width < 768;
 
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         centerMode: true,
@@ -39,7 +39,8 @@ const Home: React.FC = () => {
     return (
         <div>
             {isMobile ? (
-                <Slider {...settings}>
+                <div className={styles.sliderContainer}>
+                
                     {students.map((student: Student) => (
                         <div key={student.id}>
                             <StudentCard
@@ -48,7 +49,8 @@ const Home: React.FC = () => {
                             />
                         </div>
                     ))}
-                </Slider>
+                    
+                </div>
             ) : (
                 <div className={styles.student_grid}>
                     {students.map((student: Student) => (

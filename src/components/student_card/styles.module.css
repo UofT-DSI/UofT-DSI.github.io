@@ -62,10 +62,20 @@
 }
 
 @media (max-width: 768px) {
+    .cards-container {
+        display: flex;
+        flex-direction: column;  /* Stack children vertically if needed */
+        justify-content: center; /* Center vertically in the container */
+        align-items: center;     /* Center horizontally in the container */
+        height: 100vh;           /* Take full height of the viewport */
+        width: 100vw;            /* Take full width of the viewport */
+    }
+    
     .student_card {
-        padding: 40px 40px;
-        margin: 0;
-        width: auto;
+        width: 90%;   /* Or set a max-width if you prefer */
+        margin: 10px; /* Optional: Adds some space around the cards */
+        box-sizing: border-box; /* Include padding and borders in the width */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhance shadow on hover */
     }
     
     .profile_image {
@@ -85,5 +95,10 @@
     .inactiveSlide {
         transform: scale(0.8);  /* Inactive slides are scaled down */
         opacity: 0.7;  /* Make inactive slides slightly transparent */
+    }
+
+    .student_card:hover {
+        transform: initial; /* Slight scale up on hover */
+        z-index: initial; /* Elevate the card on hover */
     }
 }
