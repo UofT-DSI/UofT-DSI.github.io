@@ -62,15 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    .cards-container {
-        display: flex;
-        flex-direction: column;  /* Stack children vertically if needed */
-        justify-content: center; /* Center vertically in the container */
-        align-items: center;     /* Center horizontally in the container */
-        height: 100vh;           /* Take full height of the viewport */
-        width: 100vw;            /* Take full width of the viewport */
-    }
-    
+
     .student_card {
         display: flex;
         flex-direction: column;

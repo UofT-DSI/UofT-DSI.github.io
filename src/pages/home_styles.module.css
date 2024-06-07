@@ -11,25 +11,30 @@
 }
 
 @media (max-width: 768px) {
-
   .sliderContainer {
     display: flex;
-    flex-direction: row; /* Ensures items are in a horizontal row */
-    justify-content: center; /* Center items horizontally when total width is less than the viewport */
-    align-items: center; /* Center items vertically */
-    overflow-x: auto; /* Allows horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Optional: Snap to elements as you scroll */
-    width: 100vw; /* Container takes up the full viewport width */
-    min-height: 100vh; /* Minimum height to ensure vertical centering */
-    padding: 20px 0; /* Top and bottom padding */
+    flex-direction: row;
+    justify-content: center; /* Center items horizontally */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Optional, for snapping */
+    position: relative;
+    width: 100vw;
+    height: auto; /* Ensure full viewport height */
+    position: relative;
+    align-items: flex-start; /* Align items to the top to prevent vertical movement */
   }
 
   .studentCardContainer {
-    flex: 0 0 auto;      /* Do not grow, do not shrink, basis auto */
-    margin: 10px;        /* Space between cards */
-    width: 100vw;
-    height: 100vh;
-    scroll-snap-align: start; /* Optional: snap align cards */
+    flex: 0 0 auto; /* Do not grow or shrink, basis auto */
+    margin: 0 10px; /* Horizontal margins only */
+    width: 100vw; /* Adjust width as necessary, less than 100vw to see next card */
+    height: 100vh; /* Slightly less than container to ensure it fits without overflow */
+    scroll-snap-align: center; /* Center align at snap points */
+    transition: transform 0.5s ease, z-index 0.5s ease; /* Smooth transition for scaling and z-index */
+    position: relative;
+    display: flex; /* Ensures content within is flexibly aligned */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #fff; /* Optional: for better visibility of cards */
   }
-
 }
