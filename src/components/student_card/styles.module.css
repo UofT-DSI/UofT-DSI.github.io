@@ -72,22 +72,31 @@
     }
     
     .student_card {
-        width: 90%;   /* Or set a max-width if you prefer */
-        margin: 10px; /* Optional: Adds some space around the cards */
-        box-sizing: border-box; /* Include padding and borders in the width */
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhance shadow on hover */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: auto; /* Adjust width as necessary, or use max-width for constraints */
+        height: 70vh;
+        margin: 10%;
+        padding: 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional shadow for depth */
+        background: white; /* Assuming a white background */
+        border-radius: 10px; /* Optional rounded corners */
+        font-size: 14px; /* Adjust base font size for better fit */
     }
     
     .profile_image {
-        width: 100%; /* Set a fixed width for the image */
-        height: auto; /* Set a fixed height for the image */
-        aspect-ratio: 1;
-        border-radius: 50%; /* Makes the image circular */
+        width: 60%; /* Adjusted to a reasonable width */
+        height: auto; /* Maintain aspect ratio, remove fixed percentage */
+        aspect-ratio: 1; /* Maintain square aspect */
+        border-radius: 50%; /* Circular image */
         border: 3px solid #007FA3;
-        margin-bottom: 10px; /* Space between image and text */
-        object-fit: cover; /* Ensures the image covers the area without being squeezed */
-        object-position: center; /* Centers the image within the container */
+        margin-bottom: 5%; /* Reduced space between image and text */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+        object-position: center; /* Center the image */
     }
+    
     .activeSlide {
         transform: scale(1);  /* Active slide is at normal scale */
     }

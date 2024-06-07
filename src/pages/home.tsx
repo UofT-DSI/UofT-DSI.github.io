@@ -40,16 +40,14 @@ const Home: React.FC = () => {
         <div>
             {isMobile ? (
                 <div className={styles.sliderContainer}>
-                
                     {students.map((student: Student) => (
-                        <div key={student.id}>
+                        <div key={student.id} className={styles.studentCardContainer}>
                             <StudentCard
                                 student={student}
                                 onSelect={() => setSelectedStudent(student)}
                             />
                         </div>
                     ))}
-                    
                 </div>
             ) : (
                 <div className={styles.student_grid}>
