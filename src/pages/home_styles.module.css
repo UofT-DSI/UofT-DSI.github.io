@@ -2,39 +2,21 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your desired card width */
   gap: 20px;
-  padding: 20px 100px;
+  padding: 20px 10px;
   position: relative;  /* Ensures the position context is set for absolute positioning */
   overflow: visible; /* Allows the expanded card to overflow without scrollbars */
   background-color: #eef0f3;
   scroll-snap-type: x mandatory;
-
 }
 
 @media (max-width: 768px) {
-  .sliderContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Center items horizontally */
-    overflow-x: auto; /* Allow horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Optional, for snapping */
-    position: relative;
-    width: 100vw;
-    height: auto; /* Ensure full viewport height */
-    position: relative;
-    align-items: flex-start; /* Align items to the top to prevent vertical movement */
-  }
-
-  .studentCardContainer {
-    flex: 0 0 auto; /* Do not grow or shrink, basis auto */
-    margin: 0 10px; /* Horizontal margins only */
-    width: 100vw; /* Adjust width as necessary, less than 100vw to see next card */
-    height: 100vh; /* Slightly less than container to ensure it fits without overflow */
-    scroll-snap-align: center; /* Center align at snap points */
-    transition: transform 0.5s ease, z-index 0.5s ease; /* Smooth transition for scaling and z-index */
-    position: relative;
-    display: flex; /* Ensures content within is flexibly aligned */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    background-color: #fff; /* Optional: for better visibility of cards */
+.student_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your desired card width */
+    gap: 10px; /* Changed from 1% to a fixed pixel value for more consistent spacing */
+    position: relative;  /* Ensures the position context is set for absolute positioning */
+    overflow: visible; /* Allows the expanded card to overflow without scrollbars */
+    background-color: #eef0f3;
+    scroll-snap-type: x mandatory;
   }
 }
