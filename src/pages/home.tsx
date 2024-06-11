@@ -38,7 +38,6 @@ const Home: React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.intro_page}>
-                
                 <video className={styles.video_background} autoPlay loop muted preload="auto">
                     <source src="/background.mp4" type="video/mp4" />
                 </video>
@@ -48,6 +47,7 @@ const Home: React.FC = () => {
                     <h4>Machine Learning Software Foundations</h4>
                     <h4>and Data Science Certificates</h4>
                 </div>
+                <img src="arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow}></img>
             </div>
             <div className={styles.student_grid}>
                 {students.map((student: Student) => (
