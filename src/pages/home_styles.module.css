@@ -49,8 +49,6 @@
   z-index: 1; /* Ensure it stays above the video */
 }
 
-
-
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateX(-50%) translateY(0);
@@ -64,10 +62,6 @@
 }
 
 @media (max-width: 768px) {
-  .squircle {
-    margin: 10%;
-    padding:70px 20px;
-  }
   
   .student_grid {
     display: grid;
@@ -79,8 +73,5 @@
     scroll-snap-type: x mandatory;
   }
 
-  .bounce_arrow:hover {
-    box-shadow: initial; /* Faded white border */
-    background-color: initial; /* Subtle background transparency */
-  }
+
 }

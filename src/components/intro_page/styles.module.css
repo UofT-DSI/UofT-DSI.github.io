@@ -8,19 +8,29 @@
     align-items: center;
     overflow: auto; /* Scrollbars appear only when needed */
     min-height: 100vh; /* Ensures a decent minimum height */
-}
-
-.squircle > h1 {
+  }
+  
+  .video_background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video stays behind other content */
+  }
+  
+  .squircle > h1 {
     margin: 0;
     color: white;
-}
-
-.squircle > h4 {
+  }
+  
+  .squircle > h4 {
     margin: 0;
     color: white;
-}
-
-.squircle {
+  }
+  
+  .squircle {
     position: relative;
     display: inline-block;
     padding: 80px 40px 100px;
@@ -30,28 +40,16 @@
     -webkit-backdrop-filter: blur(10px); /* For Safari support */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
     z-index: 1; /* Ensure it stays above the video */
-    transition: transform 0.1s ease-out; /* Smooth transformation */
-}
+    transition: transform 0.3s ease-out; /* Smooth transformation */
+  }
+  
+  .logo {
+    width: 100%; /* Default width for desktop */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the logo */
+  }
 
-.video_background {
-    pointer-events: none; /* Disable all mouse/touch interactions */
-    position: absolute; /* Ensure it stays in the background */
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the video covers the entire container */
-    z-index: -1; /* Keep it behind other content */
-}
-
-.logo {
-    position: relative;
-    z-index: 2; /* Ensure it stays above the video */
-    width: 300px; /* Adjust size as needed */
-    margin-bottom: 20px; /* Space between logo and content below */
-}
-
-.bounce_arrow {
+  .bounce_arrow {
     width: 75px; /* Adjust width as needed */
     height: auto; /* Keeps the aspect ratio of the image */
     position: absolute; /* Positioning can be adjusted as needed */
@@ -63,7 +61,6 @@
     border-radius: 2px; /* Rounded corners */
     padding: 1%;
     transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
-    box-sizing: border-box;
   }
   
   .bounce_arrow:hover {
@@ -80,5 +77,41 @@
     }
     60% {
       transform: translateY(-5px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bounce_arrow {
+      width: 50px; /* Adjust width as needed */
+      height: auto; /* Keeps the aspect ratio of the image */
+      position: absolute; /* Positioning can be adjusted as needed */
+      bottom: 10px; /* Place it at the bottom or adjust as needed */
+      left: calc(50% - 25px);
+      transform: translateX(-50%); /* Centers the arrow horizontally */
+      animation: bounce 2s infinite; /* Applies the bounce animation */
+      cursor: pointer; /* Indicates a clickable item */
+      border-radius: 2px; /* Rounded corners */
+      padding: 1%;
+      transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+      box-sizing: border-box;
+    }
+
+    .squircle {
+      width: 90%; /* Adjust width to fit the screen */
+      margin: 5%; /* Adjust margin to fit the screen */
+      padding: 20% 20px; /* Adjust padding to fit the screen */
+    }
+
+    .squircle > h1 {
+      font-size: 1.5em; /* Adjust font size for smaller screens */
+    }
+
+    .squircle > h4 {
+      font-size: 1em; /* Adjust font size for smaller screens */
+    }
+
+    .bounce_arrow:hover {
+      box-shadow: initial; /* Faded white border */
+      background-color: initial; /* Subtle background transparency */
     }
   }

@@ -27,21 +27,30 @@ const IntroPage: React.FC = () => {
 
             // Apply the transformation
             squircle.style.transition = ''; // Reset transition
-            squircle.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            squircle.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1)`;
 
             // Clear the previous timeout and set a new one
             clearTimeout(timeoutId);
             timeoutId = setTimeout(() => {
                 // Smoothly transition back to the original state
                 squircle.style.transition = 'transform 1s ease-out'; // Set the transition
-                squircle.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
+                squircle.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(0.95)';
             }, 3000); // Adjust the timeout duration as needed
         };
 
+        const handleMouseLeave = () => {
+            if (squircle) {
+                squircle.style.transition = 'transform 1s ease-out'; // Set the transition
+                squircle.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) scale(0.95)';
+            }
+        };
+
         document.addEventListener('mousemove', handleMouseMove);
+        document.addEventListener('mouseleave', handleMouseLeave);
 
         return () => {
             document.removeEventListener('mousemove', handleMouseMove);
+            document.removeEventListener('mouseleave', handleMouseLeave);
             clearTimeout(timeoutId);
         };
     }, []);
