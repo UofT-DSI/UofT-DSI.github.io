@@ -65,7 +65,7 @@ const IntroPage: React.FC = () => {
 
     return (
         <div className={styles.intro_page}>
-            <video className={styles.video_background} autoPlay loop muted preload="auto">
+            <video className={styles.video_background} autoPlay loop muted playsInline preload="auto">
                 <source src="/background.mp4" type="video/mp4" />
             </video>
             <div className={styles.squircle}>
