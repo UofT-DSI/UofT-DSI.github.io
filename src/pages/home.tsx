@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import useWindowSize from '../hooks/useWindowSize';
-import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -21,18 +20,13 @@ interface Student {
 
 const Home: React.FC = () => {
     const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
-    const { width } = useWindowSize();
-    const isMobile = width < 768;
 
-    const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        centerMode: true,
-        focusOnSelect: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerPadding: '20px',
+    const handleArrowClick = () => {
+        window.scrollBy({
+            top: 700,
+            left: 0,
+            behavior: 'smooth'
+        });
     };
 
     return (
@@ -47,7 +41,7 @@ const Home: React.FC = () => {
                     <h4>Machine Learning Software Foundations</h4>
                     <h4>and Data Science Certificates</h4>
                 </div>
-                <img src="arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow}></img>
+                <img src="arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow} onClick={handleArrowClick}></img>
             </div>
             <div className={styles.student_grid}>
                 {students.map((student: Student) => (

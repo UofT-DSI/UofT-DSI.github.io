@@ -1,7 +1,7 @@
 /* home_styles.module.css */
 .container {
-  overflow: auto; /* Scrollbars appear only when needed */
-  height: 100vh; /* Full viewport height */
+  overflow: auto; /* Enables scrollbars if content overflows */
+  min-height: 100vh; /* Ensures it's at least as tall as the viewport */
 }
 
 .student_grid {
@@ -23,6 +23,8 @@
   justify-content: center;
   align-items: center;
   overflow: auto; /* Scrollbars appear only when needed */
+  min-height: 100vh; /* Ensures a decent minimum height */
+
 }
 
 .squircle > h1 {
@@ -73,6 +75,18 @@
   left: 50%;
   transform: translateX(-50%); /* Centers the arrow horizontally */
   animation: bounce 2s infinite; /* Applies the bounce animation */
+  cursor: pointer; /* Indicates a clickable item */
+  border-radius: 2px; /* Rounded corners */
+  transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.bounce_arrow:hover {
+  box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.5); /* Faded white border */
+  background-color: rgba(255, 255, 255, 0.3); /* Subtle background transparency */
 }
 
 @keyframes bounce {
@@ -101,5 +115,10 @@
     overflow: visible; /* Allows the expanded card to overflow without scrollbars */
     background-color: #eef0f3;
     scroll-snap-type: x mandatory;
+  }
+
+  .bounce_arrow:hover {
+    box-shadow: initial; /* Faded white border */
+    background-color: initial; /* Subtle background transparency */
   }
 }
