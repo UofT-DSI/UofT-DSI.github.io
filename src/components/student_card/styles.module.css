@@ -96,7 +96,7 @@
         height: auto; /* Maintain aspect ratio, remove fixed percentage */
         aspect-ratio: 1; /* Maintain square aspect */
         border-radius: 50%; /* Circular image */
-        border: 3px solid #007FA3;
+        border: 3px solid #479e8a;
         object-fit: cover; /* Ensures the image covers the area without distortion */
         object-position: center; /* Center the image */
     }
