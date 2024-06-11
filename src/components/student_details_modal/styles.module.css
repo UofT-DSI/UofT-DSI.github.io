@@ -1,4 +1,4 @@
-/* styles.module.css */
+/* Certification Specific Styles */
 .dataScience {
     color: rgb(171, 19, 104);
 }
@@ -7,14 +7,40 @@
     color: #479e8a;
 }
 
+.buttonDataScience,
+.buttonMachineLearning {
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+}
+
 .buttonDataScience {
     background-color: rgb(171, 19, 104);
-    color: white;
 }
 
 .buttonMachineLearning {
     background-color: #479e8a;
-    color: white;
+}
+
+.buttonDataScience:hover,
+.buttonMachineLearning:hover {
+    opacity: 0.8; /* Make the button slightly transparent when hovered */
+}
+
+.closeButtonDataScience,
+.closeButtonMachineLearning {
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
 .closeButtonDataScience {
@@ -25,7 +51,7 @@
     color: #479e8a;
 }
 
-/* Other existing styles */
+/* Modal Styles */
 .modalOverlay {
     position: fixed;
     top: 0;
@@ -43,6 +69,11 @@
     transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
+.modalActive {
+    opacity: 1; /* Fully opaque */
+    visibility: visible; /* Make visible */
+}
+
 .modalContent {
     background-color: #fff;
     padding: 2% 3%;
@@ -56,61 +87,44 @@
     transition: transform 0.3s ease; /* Smooth scale transition */
 }
 
-.modalActive {
-    opacity: 1; /* Fully opaque */
-    visibility: visible; /* Make visible */
-}
-
 .modalContentActive {
     transform: scale(1); /* Scale to normal size */
 }
 
+/* Close Button Styles */
 .closeButton {
-    float: right;
+    position: absolute;
+    top: 3%;
+    right: 3%; /* Ensures the close button is always on the right side */
     border: none;
     background: none;
     font-size: 24px;
     cursor: pointer;
+    z-index: 1002; /* Ensure it's above the modal content */
 }
 
+/* Profile Image Styles */
 .profileImage {
-    width: 100%;  /* Set a larger width */
-    height: auto;  /* Set a larger height */
+    width: 100%;
+    height: auto;
     aspect-ratio: 1;
     max-width: 100%;
-    border-radius: 20px;  /* Makes the image circular */
-    object-fit: cover;  /* Ensure the image covers the area without distortion */
-    margin: 10px 0;  /* Vertical margin for spacing */
+    border-radius: 20px; /* Makes the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin: 10px 0; /* Vertical margin for spacing */
     border: 3px solid; /* Border color will be set dynamically */
 }
 
-a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 10px;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-}
-
-a:hover {
-    opacity: 0.8; /* Make the button slightly transparent when hovered */
-}
-
-.profileContainer {  
-    display: flex;  
-    align-items: flex-start;
+/* Profile Container Styles */
+.profileContainer {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
-    align-items: center;  
 }
 
-.leftColumn, .rightColumn {
+.leftColumn,
+.rightColumn {
     flex: 1; /* Both columns take up equal space */
     margin: 20px; /* Optional: adds some space around each column */
 }
@@ -125,15 +139,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .modalOverlay {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
         background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-        display: flex;
-        align-items: center;
-        justify-content: center;
         z-index: 1000; /* Ensure it's above other content */
         opacity: 0;
         pointer-events: none;
@@ -146,8 +152,6 @@ a:hover {
     }
 
     .modalContent {
-        position: relative;
-        background: white;
         width: 85%;
         max-width: 500px;
         max-height: 90%;
@@ -167,50 +171,32 @@ a:hover {
         transform: translateY(0);
     }
 
-    .closeButton {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background: none;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
-        z-index: 1002; /* Ensure it's above the modal content */
-    }
-
     .profileContainer {
-        display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: flex-start;
-        width: 100%;
         height: 100%;
         overflow-y: auto; /* Makes the content scrollable */
-        padding: 0px;
+        padding: 0;
         box-sizing: border-box;
     }
 
     .profileImage {
         width: 80%; /* Image takes full width of the container */
-        height: auto; /* Maintain aspect ratio */
         max-height: 300px; /* Optional: limit the height of the image */
         border-radius: 10px; /* Optional: rounded corners */
-        object-fit: cover; /* Ensure the image covers the area without distortion */
-        margin-bottom: 20px; /* Space below the image */
         margin-top: 50px;
+        margin-bottom: 20px; /* Space below the image */
     }
 
     .leftColumn {
         width: 100%; /* Ensure full width in the column layout */
-        text-align: center; /* Center text and image */
+        text-align: center;
         max-width: initial;
-        box-sizing: border-box;
         margin: 0; /* Remove any default margin */
         padding: 0; /* Remove any default padding */
     }
 
     .leftColumn p {
-        margin: initial;
         padding: 5%;
         text-align: left;
     }
@@ -234,7 +220,6 @@ a:hover {
 
     .rightColumn a {
         display: inline-block;
-        margin: initial;
         margin-top: 20px;
         color: #fff; /* Adjust link color */
         text-decoration: none;
