@@ -44,7 +44,7 @@ const Home: React.FC = () => {
                 </video>
                 <div className={styles.squircle}>
                     <img src="/logo.png" alt="Logo" className={styles.logo} />
-                    <h1>Say hello to our Future Proofed Talent</h1>
+                    <h1>Say Hello to our Future Proofed Talent</h1>
                     <h4>Machine Learning Software Foundations</h4>
                     <h4>and Data Science Certificates</h4>
                 </div>

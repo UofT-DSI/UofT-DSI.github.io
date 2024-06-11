@@ -16,7 +16,7 @@ interface StudentCardProps {
 
 const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
     // Set a default photo if none is provided
-    const defaultPhotoUrl = "https://thenerdy.com/wp-content/uploads/2018/11/70821-LEGO-LEGO-Movie-2-Emmet-and-Bennys-Build-and-Fix-Workshop-01.jpg"; // Replace with your actual default photo path
+    const defaultPhotoUrl = "https://static.vecteezy.com/system/resources/previews/004/511/281/original/default-avatar-photo-placeholder-profile-picture-vector.jpg"; // Replace with your actual default photo path
     const photoUrl = student.photo || defaultPhotoUrl;
 
     // Function to convert string to Title Case
