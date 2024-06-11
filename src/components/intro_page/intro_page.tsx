@@ -21,8 +21,9 @@ const IntroPage: React.FC = () => {
             const deltaY = clientY - centerY;
 
             // Calculate the rotation angles
-            const rotateX = -(deltaY / height) * 10; // Adjust the multiplier for more or less tilt
-            const rotateY = (deltaX / width) * 10; // Adjust the multiplier for more or less tilt
+            const maxRotation = 10; // Maximum rotation in degrees
+            const rotateX = Math.max(-maxRotation, Math.min(maxRotation, -(deltaY / height) * maxRotation));
+            const rotateY = Math.max(-maxRotation, Math.min(maxRotation, (deltaX / width) * maxRotation));
 
             // Apply the transformation
             squircle.style.transition = ''; // Reset transition

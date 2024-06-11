@@ -61,6 +61,7 @@
     animation: bounce 2s infinite; /* Applies the bounce animation */
     cursor: pointer; /* Indicates a clickable item */
     border-radius: 2px; /* Rounded corners */
+    padding: 1%;
     transition: all 0.3s ease-in-out; /* Smooth transition for all changes */
 }
 
