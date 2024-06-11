@@ -30,9 +30,21 @@ const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
     // Ensure the student's name is always in Title Case
     const titleCaseName = toTitleCase(student.name);
 
+    const certificationColors: { [key: string]: string } = {
+        'Data Science Certificate': 'rgb(171, 19, 104)',
+        'Machine Learning Software Foundations Certificate': '#479e8a',
+    };
+
+    const borderColor = certificationColors[student.certification] || 'yellow'; // Default color
+
     return (
         <div className={styles.student_card} onClick={onSelect}>
-            <img src={photoUrl} alt={titleCaseName} className={styles.profile_image} />
+            <img
+                src={photoUrl}
+                alt={titleCaseName}
+                className={styles.profile_image}
+                style={{ borderColor: borderColor }}
+            />
             <h2>{titleCaseName}</h2>
             <p>Certificate: {student.certification}</p>
         </div>

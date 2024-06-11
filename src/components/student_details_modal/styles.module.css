@@ -1,4 +1,31 @@
-/* StudentDetailsModal.module.css */
+/* styles.module.css */
+.dataScience {
+    color: rgb(171, 19, 104);
+}
+
+.machineLearning {
+    color: #479e8a;
+}
+
+.buttonDataScience {
+    background-color: rgb(171, 19, 104);
+    color: white;
+}
+
+.buttonMachineLearning {
+    background-color: #479e8a;
+    color: white;
+}
+
+.closeButtonDataScience {
+    color: rgb(171, 19, 104);
+}
+
+.closeButtonMachineLearning {
+    color: #479e8a;
+}
+
+/* Other existing styles */
 .modalOverlay {
     position: fixed;
     top: 0;
@@ -25,12 +52,10 @@
     z-index: 21;
     width: 700px;
     height: auto;
-    background-color: #ffffff;
     transform: scale(0.95); /* Start slightly scaled down */
     transition: transform 0.3s ease; /* Smooth scale transition */
 }
 
-/* Active class to control visibility and transformations */
 .modalActive {
     opacity: 1; /* Fully opaque */
     visibility: visible; /* Make visible */
@@ -56,7 +81,7 @@
     border-radius: 20px;  /* Makes the image circular */
     object-fit: cover;  /* Ensure the image covers the area without distortion */
     margin: 10px 0;  /* Vertical margin for spacing */
-    border: 3px solid #479e8a;
+    border: 3px solid; /* Border color will be set dynamically */
 }
 
 a {
@@ -68,14 +93,13 @@ a {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #479e8a;
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 a:hover {
-    background-color: #2e6a5c;
+    opacity: 0.8; /* Make the button slightly transparent when hovered */
 }
 
 .profileContainer {  
@@ -97,10 +121,6 @@ a:hover {
 
 .rightColumn {
     max-width: 60%; /* Adjust the right column to align with left column */
-}
-
-h1, strong {
-    color: #479e8a;
 }
 
 @media (max-width: 768px) {
@@ -155,7 +175,6 @@ h1, strong {
         border: none;
         font-size: 24px;
         cursor: pointer;
-        color: #479e8a;
         z-index: 1002; /* Ensure it's above the modal content */
     }
 
