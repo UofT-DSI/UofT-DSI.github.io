@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import useWindowSize from '../hooks/useWindowSize';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+
 import StudentCard from '../components/student_card/student_card';
 import StudentDetailsModal from '../components/student_details_modal/student_details_modal';
 import students from '../data/students.json';
@@ -16,13 +21,18 @@ interface Student {
 
 const Home: React.FC = () => {
     const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
+    const { width } = useWindowSize();
+    const isMobile = width < 768;
 
-    const handleSelectStudent = (student: Student) => {
-        setSelectedStudent(student);  // Set the selected student to show in the modal
-    };
-
-    const handleCloseModal = () => {
-        setSelectedStudent(null);  // Clear the selected student when modal is closed
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        centerMode: true,
+        focusOnSelect: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerPadding: '20px',
     };
 
     return (
@@ -44,13 +54,13 @@ const Home: React.FC = () => {
                     <StudentCard
                         key={student.id}
                         student={student}
-                        onSelect={() => handleSelectStudent(student)}
+                        onSelect={() => setSelectedStudent(student)}
                     />
                 ))}
                 {selectedStudent && (
                     <StudentDetailsModal
                         student={selectedStudent}
-                        onClose={handleCloseModal}
+                        onClose={() => setSelectedStudent(null)}
                     />
                 )}
             </div>
