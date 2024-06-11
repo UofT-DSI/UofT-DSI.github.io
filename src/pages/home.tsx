@@ -26,7 +26,9 @@ const Home: React.FC = () => {
     return (
         <div className={styles.container}>
             <IntroPage></IntroPage>
+            
             <div className={styles.student_grid}>
+                <h1>June 19th, 2024 - Virtual Networking Event Attendees</h1>
                 {students.map((student: Student) => (
                     <StudentCard
                         key={student.id}
