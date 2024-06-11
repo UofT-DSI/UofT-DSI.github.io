@@ -34,6 +34,7 @@
     position: relative;
     display: inline-block;
     width: 40vw;
+    max-width: 600px;
     padding: 80px 40px 100px;
     border-radius: 20px; /* Adjust this value to get the desired rounded corners */
     background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
