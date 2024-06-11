@@ -83,12 +83,16 @@
         font-size: x-small;
     }
 
+    .student_card > h2 {
+        font-size: medium;
+    }
+
     .student_card > p, .student_card > h2, .profile_image {
         margin: 0 5px;
     }
 
     .profile_image {
-        width: 20%; /* Adjusted to a reasonable width */
+        width: 15%; /* Adjusted to a reasonable width */
         height: auto; /* Maintain aspect ratio, remove fixed percentage */
         aspect-ratio: 1; /* Maintain square aspect */
         border-radius: 50%; /* Circular image */

@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     z-index: 20;
-
     opacity: 0; /* Start fully transparent */
     visibility: hidden; /* Start hidden */
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -27,10 +26,8 @@
     width: 700px;
     height: auto;
     background-color: #ffffff;
-
     transform: scale(0.95); /* Start slightly scaled down */
     transition: transform 0.3s ease; /* Smooth scale transition */
-    
 }
 
 /* Active class to control visibility and transformations */
@@ -58,7 +55,7 @@
     max-width: 100%;
     border-radius: 20px;  /* Makes the image circular */
     object-fit: cover;  /* Ensure the image covers the area without distortion */
-    margin: 10px 30px 10px 0;  /* Vertical margin for spacing */
+    margin: 10px 0;  /* Vertical margin for spacing */
     border: 3px solid #007FA3;
 }
 
@@ -95,13 +92,135 @@ a:hover {
 }
 
 .leftColumn {
-    max-width: 33%; /* Constrain the max width to prevent overflow */
+    max-width: 40%; /* Allow the left column to take more width */
 }
 
 .rightColumn {
-    max-width: 66%; /* Constrain the max width to align with left column */
+    max-width: 60%; /* Adjust the right column to align with left column */
 }
 
 h1, strong {
     color: #007FA3;
+}
+
+@media (max-width: 768px) {
+    .modalOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000; /* Ensure it's above other content */
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+
+    .modalActive {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalContent {
+        position: relative;
+        background: white;
+        width: 85%;
+        max-width: 500px;
+        max-height: 90%;
+        border-radius: 10px;
+        overflow: hidden; /* Ensures border-radius is respected */
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .modalContentActive {
+        opacity: 1;
+        padding: 3px;
+        transform: translateY(0);
+    }
+
+    .closeButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 1002; /* Ensure it's above the modal content */
+    }
+
+    .profileContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto; /* Makes the content scrollable */
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .profileImage {
+        width: 80%; /* Image takes full width of the container */
+        height: auto; /* Maintain aspect ratio */
+        max-height: 300px; /* Optional: limit the height of the image */
+        border-radius: 10px; /* Optional: rounded corners */
+        object-fit: cover; /* Ensure the image covers the area without distortion */
+        margin-bottom: 20px; /* Space below the image */
+        margin-top: 50px;
+    }
+
+    .leftColumn {
+        width: 100%; /* Ensure full width in the column layout */
+        text-align: center; /* Center text and image */
+        max-width: initial;
+        box-sizing: border-box;
+        margin: 0; /* Remove any default margin */
+        padding: 0; /* Remove any default padding */
+    }
+
+    .leftColumn p {
+        margin: initial;
+        padding: 5%;
+        text-align: left;
+    }
+
+    .rightColumn {
+        width: 100%; /* Ensure full width in the column layout */
+        text-align: left;
+        padding: 0 5%; /* Apply padding to keep content inside the card */
+        max-width: initial;
+        box-sizing: border-box; /* Ensure padding is included in width calculations */
+    }
+
+    .rightColumn h1 {
+        margin-top: initial; /* Remove default margin */
+        font-size: 24px;
+    }
+
+    .rightColumn p {
+        margin: initial; /* Add some margin between paragraphs */
+    }
+
+    .rightColumn a {
+        display: inline-block;
+        margin: initial;
+        margin-top: 20px;
+        color: #fff; /* Adjust link color */
+        text-decoration: none;
+    }
+
+    .rightColumn a:hover {
+        text-decoration: initial;
+    }
 }
