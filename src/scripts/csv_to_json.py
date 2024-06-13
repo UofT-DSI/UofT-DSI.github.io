@@ -3,6 +3,27 @@ import json
 import os
 
 def csv_to_json(csv_file_path, json_file_path, photos_folder, encoding='utf-8'):
+    """
+    Convert a CSV file to a JSON file, adding photo paths and ensuring URLs are properly formatted.
+
+    Args:
+        csv_file_path (str): Path to the input CSV file containing participant data.
+        json_file_path (str): Path to the output JSON file where participant data will be saved.
+        photos_folder (str): Path to the folder containing participant photos.
+        encoding (str): Encoding to be used for reading the CSV file.
+
+    Raises:
+        FileNotFoundError: If the CSV file does not exist.
+        FileNotFoundError: If the photos folder does not exist.
+    """
+    # Check if CSV file exists
+    if not os.path.isfile(csv_file_path):
+        raise FileNotFoundError(f"The CSV file {csv_file_path} does not exist.")
+    
+    # Check if photos folder exists
+    if not os.path.exists(photos_folder):
+        raise FileNotFoundError(f"The photos folder {photos_folder} does not exist.")
+
     data = []
     photo_extensions = {'.png', '.jpeg', '.jpg'}
     
