@@ -66,15 +66,15 @@ const IntroPage: React.FC = () => {
     return (
         <div className={styles.intro_page}>
             <video className={styles.video_background} autoPlay loop muted playsInline preload="auto">
-                <source src="/background.mp4" type="video/mp4" />
+                <source src="videos/background.mp4" type="video/mp4" />
             </video>
             <div className={styles.squircle}>
-                <img src="/logo.png" alt="Logo" className={styles.logo} />
+                <img src="images/logo.png" alt="Logo" className={styles.logo} />
                 <h1>Say Hello to our Future Proofed Talent</h1>
                 <h4>Machine Learning Software Foundations</h4>
                 <h4>and Data Science Certificates</h4>
             </div>
-            <img src="arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow} onClick={handleArrowClick} />
+            <img src="images/arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow} onClick={handleArrowClick} />
         </div>
     );
 };

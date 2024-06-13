@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import useWindowSize from '../hooks/useWindowSize';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import IntroPage from '../components/intro_page/intro_page';
