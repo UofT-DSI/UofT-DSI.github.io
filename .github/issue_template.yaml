@@ -1,0 +1,74 @@
+name: Bug Report
+description: Report a bug
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - danielrazavi
+  - rohanalexander
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug. Please provide the details below to help us identify and resolve the issue quickly.
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: A clear and concise description of what the bug is.
+      placeholder: When I click here, this happens...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Step-by-step instructions to reproduce the issue.
+      placeholder: |
+        1. Go to page X
+        2. Click here
+        3. Click there
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result
+      description: Describe what you expected to happen.
+      placeholder: I expected this to happen...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result
+      description: Describe what actually happened.
+      placeholder: This actually happened...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Provide details about your environment (browser, operating system, etc.).
+      placeholder: Browser: Chrome, OS: Windows 10, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Videos (optional)
+      description: Add any relevant screenshots or video links to help illustrate the issue.
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information (optional)
+      description: Any other information that might help us diagnose the problem.
+  - type: textarea
+    id: assignee
+    attributes:
+      label: Preferred Code Owner for Review (optional)
+      description: Specify if you have a preferred code owner to review this issue.
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this issue! We will look into it as soon as possible.
