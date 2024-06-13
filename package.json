@@ -2,7 +2,7 @@
   "name": "uoft-dsi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://uoft-dsi.github.io/uoft-dsi",
+  "homepage": "https://uoft-dsi.github.io/",
   "dependencies": {
     "@types/gsap": "^3.0.0",
     "@types/react": "^18.2.0",
