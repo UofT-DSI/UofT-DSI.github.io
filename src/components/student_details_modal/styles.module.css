@@ -181,30 +181,31 @@
     }
 
     .profileImage {
-        width: 80%; /* Image takes full width of the container */
+        width: 100%;
+        margin: inital;
         max-height: 300px; /* Optional: limit the height of the image */
         border-radius: 10px; /* Optional: rounded corners */
         margin-top: 50px;
         margin-bottom: 20px; /* Space below the image */
+        box-sizing: border-box;
     }
 
     .leftColumn {
-        width: 100%; /* Ensure full width in the column layout */
+        width: 90%; /* Ensure full width in the column layout */
         text-align: center;
         max-width: initial;
-        margin: 0; /* Remove any default margin */
-        padding: 0; /* Remove any default padding */
+        margin: inital; /* Remove any default margin */
+        padding: inital; /* Remove any default padding */
+        box-sizing: border-box;
     }
 
     .leftColumn p {
-        padding: 5%;
         text-align: left;
     }
 
     .rightColumn {
-        width: 100%; /* Ensure full width in the column layout */
+        width: 90%; /* Ensure full width in the column layout */
         text-align: left;
-        padding: 0 5%; /* Apply padding to keep content inside the card */
         max-width: initial;
         box-sizing: border-box; /* Ensure padding is included in width calculations */
     }
@@ -227,5 +228,22 @@
 
     .rightColumn a:hover {
         text-decoration: initial;
+    }
+
+    .closeButton {
+        border-radius: 20%; /* Adjust this value to get the desired rounded corners */
+        padding: 0 2%;
+
+
+    }
+
+    .closeButtonDataScience {
+        background: rgba(171, 19, 104, 0.3); /* Semi-transparent background */
+        color: rgb(171, 19, 104);
+    }
+    
+    .closeButtonMachineLearning {
+        background: rgba(71, 158, 138, 0.3); /* Semi-transparent background */
+        color: rgba(71, 158, 138);
     }
 }
