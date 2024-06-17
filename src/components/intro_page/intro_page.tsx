@@ -70,7 +70,7 @@ const IntroPage: React.FC = () => {
             </video>
             <div className={styles.squircle}>
                 <img src="images/logo.png" alt="Logo" className={styles.logo} />
-                <h1>Say Hello to Our Talent</h1>
+                <h1>Say Hello to our talent</h1>
                 <h4>Data Science and Machine Learning Software Foundations Certificates</h4>
             </div>
             <img src="images/arrow_down.png" alt="Downward Arrow" className={styles.bounce_arrow} onClick={handleArrowClick} />
