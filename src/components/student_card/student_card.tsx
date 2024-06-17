@@ -46,7 +46,7 @@ const StudentCard: React.FC<StudentCardProps> = ({ student, onSelect }) => {
                 style={{ borderColor: borderColor }}
             />
             <h2>{titleCaseName}</h2>
-            <p>Certificate: {student.certification}</p>
+            <p>{student.certification}</p>
         </div>
     );
 };
