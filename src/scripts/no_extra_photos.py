@@ -27,29 +27,48 @@ def validate_and_move_photos(json_file_path, photos_folder, extra_photos_folder)
     with open(json_file_path, 'r', encoding='utf-8') as f:
         participants = json.load(f)
     
-    # Get the number of participants
-    num_participants = len(participants)
-    print(f"Number of participants in JSON: {num_participants}")
+    # Get the list of participant photos
+    participant_photos = set()
+    for participant in participants:
+        # print(os.path.basename(participant["photo"]))
+        photo = participant.get('photo', '')
+        if photo:
+            participant_photos.add(os.path.basename(photo))
 
-    # Get the list of photos
-    photo_files = [f for f in os.listdir(photos_folder) if os.path.isfile(os.path.join(photos_folder, f))]
-    num_photos = len(photo_files)
-    print(f"Number of photos in folder: {num_photos}")
+    # Get the list of all photos in the photos folder
+    # List all entries in the photos folder
+    all_entries = os.listdir(photos_folder)
+
+    # Initialize an empty list to store photo files
+    photo_files = []
+
+    # Iterate over each entry
+    for entry in all_entries:
+        # Create the full path to the entry
+        full_path = os.path.join(photos_folder, entry)
+        
+        # Check if the entry is a file (and not a directory)
+        if os.path.isfile(full_path):
+            # print(os.path.isfile(full_path))
+            # If it's a file, add it to the photo_files list
+            photo_files.append(entry)
 
     # Create the extra_photos_folder if it doesn't exist
     if not os.path.exists(extra_photos_folder):
         os.makedirs(extra_photos_folder)
 
-    # Check for extra photos
-    participant_photos = {p['photo'].split('/')[-1] for p in participants if 'photo' in p}
-    extra_photos = [photo for photo in photo_files if photo not in participant_photos]
+    # print(photo_files)
+    participant_photos_lower = {p.lower() for p in participant_photos}
 
-    if extra_photos:
-        print(f"Moving extra photos to {extra_photos_folder}: {extra_photos}")
-        for photo in extra_photos:
+    # Move extra photos to the extra_photos_folder
+    for photo in photo_files:
+        # Normalize the case by converting both to lowercase
+        photo_lower = photo.lower()  
+        if photo_lower not in participant_photos_lower:
             shutil.move(os.path.join(photos_folder, photo), os.path.join(extra_photos_folder, photo))
-    else:
-        print("No extra photos found.")
+            print(f"Moved extra photo {photo} to {extra_photos_folder}")
+
+    print("Photo validation and moving completed.")
 
 if __name__ == "__main__":
     json_file_path = '../data/students.json'

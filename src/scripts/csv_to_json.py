@@ -25,7 +25,7 @@ def csv_to_json(csv_file_path, json_file_path, photos_folder, encoding='utf-8'):
         raise FileNotFoundError(f"The photos folder {photos_folder} does not exist.")
 
     data = []
-    photo_extensions = {'.png', '.jpeg', '.jpg'}
+    photo_extensions = {'.png', '.jpeg', '.jpg', '.PNG', '.JPEG', '.JPG'}
     
     with open(csv_file_path, encoding=encoding) as csv_file:
         reader = csv.DictReader(csv_file)
