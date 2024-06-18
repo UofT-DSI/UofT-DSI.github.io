@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import styles from './styles.module.css';
 
-// Define the Student interface
-interface Student {
+// Define the Participant interface
+interface Participant {
     id: string;
     name: string;
     certification: string;
@@ -12,13 +12,13 @@ interface Student {
     github: string;
 }
 
-// Define the props for StudentDetailsModal
-interface StudentDetailsModalProps {
-    student: Student;
+// Define the props for ParticipantDetailsModal
+interface ParticipantDetailsModalProps {
+    participant: Participant;
     onClose: () => void;
 }
 
-const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onClose }) => {
+const ParticipantDetailsModal: React.FC<ParticipantDetailsModalProps> = ({ participant, onClose }) => {
     const [isActive, setIsActive] = useState(false);
 
     // Effect to handle the modal activation delay
@@ -40,14 +40,14 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
 
     // Default photo URL if none is provided
     const defaultPhotoUrl = "https://static.vecteezy.com/system/resources/previews/004/511/281/original/default-avatar-photo-placeholder-profile-picture-vector.jpg";
-    const photoUrl = student.photo || defaultPhotoUrl;
+    const photoUrl = participant.photo || defaultPhotoUrl;
 
     // Function to convert string to Title Case
     const toTitleCase = (str: string) => {
         return str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
     };
 
-    const titleCaseName = toTitleCase(student.name);
+    const titleCaseName = toTitleCase(participant.name);
 
     // Define the styles and colors for different certification types
     const certificationTypes = {
@@ -69,7 +69,7 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
     type CertificationType = keyof typeof certificationTypes;
 
     // Get the styles for the current certification or use default values
-    const currentStyles = certificationTypes[student.certification as CertificationType] || {
+    const currentStyles = certificationTypes[participant.certification as CertificationType] || {
         textClass: '',
         buttonClass: '',
         closeButtonClass: '',
@@ -88,18 +88,18 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
                             className={styles.profileImage}
                             style={{ borderColor: currentStyles.borderColor }}
                         />
-                        <p><span className={currentStyles.textClass}><strong>Certificate:</strong></span> {student.certification}</p>
+                        <p><span className={currentStyles.textClass}><strong>Certificate:</strong></span> {participant.certification}</p>
                     </div>
                     <div className={styles.rightColumn}>
                         <h1 className={currentStyles.textClass}>{titleCaseName}</h1>
-                        <p>{student.summary}</p>
-                        {student.linkedin && (
-                            <a href={student.linkedin} target="_blank" rel="noopener noreferrer" className={currentStyles.buttonClass}>
+                        <p>{participant.summary}</p>
+                        {participant.linkedin && (
+                            <a href={participant.linkedin} target="_blank" rel="noopener noreferrer" className={currentStyles.buttonClass}>
                                 LinkedIn
                             </a>
                         )}
-                        {student.github && (
-                            <a href={student.github} target="_blank" rel="noopener noreferrer" className={currentStyles.buttonClass}>
+                        {participant.github && (
+                            <a href={participant.github} target="_blank" rel="noopener noreferrer" className={currentStyles.buttonClass}>
                                 Github
                             </a>
                         )}
@@ -110,4 +110,4 @@ const StudentDetailsModal: React.FC<StudentDetailsModalProps> = ({ student, onCl
     );
 };
 
-export default StudentDetailsModal;
+export default ParticipantDetailsModal;

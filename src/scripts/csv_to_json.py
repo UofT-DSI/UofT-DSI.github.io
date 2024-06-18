@@ -40,6 +40,6 @@ def csv_to_json(csv_file_path, json_file_path, photos_folder, encoding='utf-8'):
 
 if __name__ == "__main__":
     csv_file_path = '../../public/data/participant_directory.csv'
-    json_file_path = '../data/students.json'
+    json_file_path = '../data/participants.json'
     photos_folder = '../../public/images/participant_photos'
     csv_to_json(csv_file_path, json_file_path, photos_folder, encoding='utf-8')

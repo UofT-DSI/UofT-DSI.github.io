@@ -71,7 +71,7 @@ def validate_and_move_photos(json_file_path, photos_folder, extra_photos_folder)
     print("Photo validation and moving completed.")
 
 if __name__ == "__main__":
-    json_file_path = '../data/students.json'
+    json_file_path = '../data/participants.json'
     photos_folder = '../../public/images/participant_photos'
     extra_photos_folder = '../../public/images/extra_photos'
     validate_and_move_photos(json_file_path, photos_folder, extra_photos_folder)

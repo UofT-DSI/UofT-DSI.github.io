@@ -1,4 +1,4 @@
-.student_card {
+.participant_card {
     border: 0px solid #ccc;
     padding: 20px;
     border-radius: 8px;
@@ -15,7 +15,7 @@
 
 }
 
-.student_card:hover {
+.participant_card:hover {
     transform: scale(1.05); /* Slight scale up on hover */
     z-index: 2; /* Elevate the card on hover */
     box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Enhance shadow on hover */
@@ -35,7 +35,7 @@
     box-sizing: border-box;
 }
 
-.student_card ul {
+.participant_card ul {
     padding: 0;
     list-style-type: none; /* Removes default bullets */
     text-align: left; /* Align text to left if needed, or keep center for different aesthetic */
@@ -46,7 +46,7 @@
     align-items: left; /* Centers items if the list itself is wider */
 }
 
-.student_card li {
+.participant_card li {
     text-align: left; /* Centers text within list items */
     width: 100%; /* Full width of the list area */
 }
@@ -63,7 +63,7 @@
 
 @media (max-width: 768px) {
 
-    .student_card {
+    .participant_card {
         display: flex;
         flex-direction: row; /* Changed from column to row for horizontal alignment */
         align-items: center; /* Vertically centers the content within the card */
@@ -79,15 +79,15 @@
         overflow: hidden; /* Prevents any overflow outside the card */
     }
     
-    .student_card > p {
+    .participant_card > p {
         font-size: x-small;
     }
 
-    .student_card > h2 {
+    .participant_card > h2 {
         font-size: medium;
     }
 
-    .student_card > p, .student_card > h2, .profile_image {
+    .participant_card > p, .participant_card > h2, .profile_image {
         margin: 0 5px;
     }
 
@@ -101,7 +101,7 @@
         object-position: center; /* Center the image */
     }
 
-    .student_card:hover {
+    .participant_card:hover {
         transform: initial; /* Slight scale up on hover */
         z-index: initial; /* Elevate the card on hover */
     }

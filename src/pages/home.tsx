@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import IntroPage from '../components/intro_page/intro_page';
-import StudentCard from '../components/student_card/student_card';
-import StudentDetailsModal from '../components/student_details_modal/student_details_modal';
-import students from '../data/students.json';
+import ParticipantCard from '../components/participant_card/participant_card';
+import ParticipantDetailsModal from '../components/participant_details_modal/participant_details_modal';
+import participants from '../data/participants.json';
 import styles from './home_styles.module.css';
 
-interface Student {
+interface Participant {
     id: string;
     name: string;
     certification: string;
@@ -18,7 +18,7 @@ interface Student {
 }
 
 const Home: React.FC = () => {
-    const [selectedStudent, setSelectedStudent] = useState<Student | null>(null);
+    const [selectedParticipant, setSelectedParticipant] = useState<Participant | null>(null);
 
 
 
@@ -26,19 +26,19 @@ const Home: React.FC = () => {
         <div className={styles.container}>
             <IntroPage></IntroPage>
             
-            <div className={styles.student_grid}>
+            <div className={styles.participant_grid}>
                 <h1>June 19th, 2024 - Virtual Networking Event Attendees</h1>
-                {students.map((student: Student) => (
-                    <StudentCard
-                        key={student.id}
-                        student={student}
-                        onSelect={() => setSelectedStudent(student)}
+                {participants.map((participant: Participant) => (
+                    <ParticipantCard
+                        key={participant.id}
+                        participant={participant}
+                        onSelect={() => setSelectedParticipant(participant)}
                     />
                 ))}
-                {selectedStudent && (
-                    <StudentDetailsModal
-                        student={selectedStudent}
-                        onClose={() => setSelectedStudent(null)}
+                {selectedParticipant && (
+                    <ParticipantDetailsModal
+                        participant={selectedParticipant}
+                        onClose={() => setSelectedParticipant(null)}
                     />
                 )}
             </div>
