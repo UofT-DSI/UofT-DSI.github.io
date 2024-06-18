@@ -78,8 +78,11 @@ const ParticipantDetailsModal: React.FC<ParticipantDetailsModalProps> = ({ parti
 
     return (
         <div className={`${styles.modalOverlay} ${isActive ? styles.modalActive : ''}`} onClick={handleClose}>
+            
             <div className={`${styles.modalContent} ${isActive ? styles.modalContentActive : ''}`} onClick={handleContentClick}>
-                <button onClick={handleClose} className={`${styles.closeButton} ${currentStyles.closeButtonClass}`}>×</button>
+                <div className={styles.modalHeader}>
+                    <button onClick={handleClose} className={`${styles.closeButton} ${currentStyles.closeButtonClass}`}>×</button>
+                </div>
                 <div className={styles.profileContainer}>
                     <div className={styles.leftColumn}>
                         <img
