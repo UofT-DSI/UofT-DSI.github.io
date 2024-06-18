@@ -24,15 +24,18 @@
   
   .participant_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust minmax for your desired card width */
+    grid-template-columns: repeat(auto-fill, minmax(90%, 1fr)); /* Adjust minmax for your desired card width */
     gap: 10px; /* Changed from 1% to a fixed pixel value for more consistent spacing */
     position: relative;  /* Ensures the position context is set for absolute positioning */
     overflow: visible; /* Allows the expanded card to overflow without scrollbars */
     background-color: #eef0f3;
     scroll-snap-type: x mandatory;
+    padding: 5% 0%;
+
   }
 
   .participant_grid > h1 {
+    padding: 0% 5%;
     font-size: 1.5em;
   }
 

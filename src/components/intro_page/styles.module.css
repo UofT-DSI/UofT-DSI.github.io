@@ -99,9 +99,9 @@
     }
 
     .squircle {
-      width: 90%; /* Adjust width to fit the screen */
+      width: 100%; /* Adjust width to fit the screen */
       margin: 5%; /* Adjust margin to fit the screen */
-      padding: 20% 20px; /* Adjust padding to fit the screen */
+      padding: 20% 5%; /* Adjust padding to fit the screen */
     }
 
     .squircle > h1 {
