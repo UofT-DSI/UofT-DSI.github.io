@@ -154,7 +154,7 @@
     }
 
     .modalContent {
-        width: 85%;
+        width: 90%;
         max-width: 500px;
         max-height: 90%;
         border-radius: 10px;
@@ -169,7 +169,7 @@
 
     .modalContentActive {
         opacity: 1;
-        padding: 3px;
+        padding: initial;
         transform: translateY(0);
     }
 
